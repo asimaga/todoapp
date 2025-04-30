@@ -13,6 +13,6 @@ app.post('/add',(req,res)=>{
 
 })
 
-app.listen(3000, '0.0.0.0', () => {
+app.listen(3000, '13.232.249.215', () => {
   console.log('Server is listening on port 3000');
 });
