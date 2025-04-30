@@ -8,7 +8,7 @@ function App() {
 
   const submitReq = async () => {
     try {
-      const response = await axios.post('http://localhost:3000/add', {
+      const response = await axios.post('http://localhost:3002/add', {
         a: a,
         b: b
       });
